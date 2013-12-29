@@ -33,22 +33,22 @@
 \markup \vspace #0.1
 \markup \large \bold "Where to obtain LilyPond"
 \markup \justify {
-  The fastest is to use an online editor: :
+  The fastest is to use an online editor:
   \typewriter \smaller \with-url
   #"http://www.lilybin.com/" "www.lilybin.com"
   – it should suffice for simple tasks.
 }
 \markup \justify {
   To install LilyPond on your computer, go to
-  \with-url #"http://lilypond.org/windows.html"
-  {\smaller \typewriter lilypond.org/windows.html },
+  \concat { \with-url #"http://lilypond.org/windows.html"
+  {\smaller \typewriter lilypond.org/windows.html }, }
   download setup file \italic "Windows: LilyPond (…)"
-  (approx 25 MB) and install.  You will also need an editor,
+  (approx. 25 MB) and install.  You will also need an editor,
   e.g. Frescobaldi – go to
-  \with-url #"http://github.com/wbsoft/frescobaldi/releases"
-  \smaller\typewriter"github.com/wbsoft/frescobaldi/releases",
-  download the latest version (\italic
-  { Frescobaldi Setup (…).exe}, około 15 MB) and install.
+  \concat { \with-url #"http://github.com/wbsoft/frescobaldi/releases"
+  \smaller\typewriter"github.com/wbsoft/frescobaldi/releases", }
+  download the latest version \concat { (\italic
+  "Frescobaldi Setup (…).exe", } approx. 15 MB) and install.
 }
 
 \markup \vspace #0.1
