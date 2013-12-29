@@ -31,7 +31,7 @@
 }
 
 \markup \vspace #0.1
-\markup \large \bold "Where to obtain LilyPond"
+\markup \large \bold "2. Where to obtain LilyPond"
 \markup \justify {
   The fastest is to use an online editor:
   \typewriter \smaller \with-url
@@ -52,7 +52,7 @@
 }
 
 \markup \vspace #0.1
-\markup \large \bold "2. First run"
+\markup \large \bold "3. First run"
 
 \markup \justify { Turn Frescobaldi/Lilybin on and type: }
 \markup \column \override #'(font-name . "Lucida Console") {
@@ -81,7 +81,7 @@
 
 
 \markup \vspace #0.1
-\markup \large \bold "3. Pitches"
+\markup \large \bold "4. Pitches"
 
 \markup \bold "TODO: start with super-short explanation of absolute mode"
 \markup \wordwrap {
@@ -214,7 +214,7 @@
 
 
 \markup \vspace #0.1
-\markup \large \bold "4. Rhythm"
+\markup \large \bold "5. Rhythm"
 
 \markup \justify {
   Rhythms are written as numbers after pitch names.
@@ -300,7 +300,7 @@ Shift and press the tilde (next to number 1) and then a space.
 
 
 \markup \vspace #0.1
-\markup \large \bold "5. Words"
+\markup \large \bold "6. Words"
 
 \markup \justify {
   Enter lyrics divided into sullables - insert a space,
@@ -346,7 +346,7 @@ Shift and press the tilde (next to number 1) and then a space.
 \addlyrics { la __ }
 
 \markup \vspace #0.1
-\markup \large \bold "6. Miscellanenous"
+\markup \large \bold "7. Miscellanenous"
 
 \markup \justify {
   clefs:
@@ -446,7 +446,7 @@ Shift and press the tilde (next to number 1) and then a space.
 { f'2_"ping" g'^"pong" }
 
 \markup \vspace #0.1
-\markup \large \bold "7. tips"
+\markup \large \bold "8. tips"
 
 \markup \typewriter \column {
   "% Lines starting with the percent sign are ignored,"
