@@ -25,34 +25,34 @@
 
 \markup \large \bold "1. How LilyPond works"
 \markup \justify {
-  You write music as text (imagine sending someone a text message
-  with a song melody using a mobile), and from that text LilyPond
+  You write music as text (imagine sending someone a song melody in
+  a text message using a mobile device), and from that text LilyPond
   produces a score.
 }
 
 \markup \vspace #0.1
-\markup \large \bold "Where to obtain LilyPond"
+\markup \large \bold "2. Where to obtain LilyPond"
 \markup \justify {
-  The fastest is to use an online editor: :
+  The fastest is to use an online editor:
   \typewriter \smaller \with-url
   #"http://www.lilybin.com/" "www.lilybin.com"
   – it should suffice for simple tasks.
 }
 \markup \justify {
   To install LilyPond on your computer, go to
-  \with-url #"http://lilypond.org/windows.html"
-  {\smaller \typewriter lilypond.org/windows.html },
+  \concat { \with-url #"http://lilypond.org/windows.html"
+  {\smaller \typewriter lilypond.org/windows.html }, }
   download setup file \italic "Windows: LilyPond (…)"
-  (approx 25 MB) and install.  You will also need an editor,
+  (approx. 25 MB) and install.  You will also need an editor,
   e.g. Frescobaldi – go to
-  \with-url #"http://github.com/wbsoft/frescobaldi/releases"
-  \smaller\typewriter"github.com/wbsoft/frescobaldi/releases",
-  download the latest version (\italic
-  { Frescobaldi Setup (…).exe}, około 15 MB) and install.
+  \concat { \with-url #"http://github.com/wbsoft/frescobaldi/releases"
+  \smaller\typewriter"github.com/wbsoft/frescobaldi/releases", }
+  download the latest version \concat { (\italic
+  "Frescobaldi Setup (…).exe", } approx. 15 MB) and install.
 }
 
 \markup \vspace #0.1
-\markup \large \bold "2. First run"
+\markup \large \bold "3. First run"
 
 \markup \justify { Turn Frescobaldi/Lilybin on and type: }
 \markup \column \override #'(font-name . "Lucida Console") {
@@ -81,7 +81,7 @@
 
 
 \markup \vspace #0.1
-\markup \large \bold "3. Pitches"
+\markup \large \bold "4. Pitches"
 
 \markup \bold "TODO: start with super-short explanation of absolute mode"
 \markup \wordwrap {
@@ -214,7 +214,7 @@
 
 
 \markup \vspace #0.1
-\markup \large \bold "4. Rhythm"
+\markup \large \bold "5. Rhythm"
 
 \markup \justify {
   Rhythms are written as numbers after pitch names.
@@ -300,7 +300,7 @@ Shift and press the tilde (next to number 1) and then a space.
 
 
 \markup \vspace #0.1
-\markup \large \bold "5. Words"
+\markup \large \bold "6. Words"
 
 \markup \justify {
   Enter lyrics divided into sullables - insert a space,
@@ -346,7 +346,7 @@ Shift and press the tilde (next to number 1) and then a space.
 \addlyrics { la __ }
 
 \markup \vspace #0.1
-\markup \large \bold "6. Miscellanenous"
+\markup \large \bold "7. Miscellanenous"
 
 \markup \justify {
   clefs:
@@ -446,7 +446,7 @@ Shift and press the tilde (next to number 1) and then a space.
 { f'2_"ping" g'^"pong" }
 
 \markup \vspace #0.1
-\markup \large \bold "7. tips"
+\markup \large \bold "8. tips"
 
 \markup \typewriter \column {
   "% Lines starting with the percent sign are ignored,"
